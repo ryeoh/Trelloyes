@@ -4,11 +4,11 @@ import './List.css';
 
 function List(props) {
     return (
-        <section class='List'>
-            <header class='List-header'>
+        <section className='List'>
+            <header className='List-header'>
                 <h2>{props.header}</h2>
             </header>
-            <div class='List-cards'>
+            <div className='List-cards'>
                 {props.cards.map((card) =>
                 <Card
                     key={card.id}
